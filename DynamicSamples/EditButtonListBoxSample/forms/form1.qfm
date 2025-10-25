@@ -1,0 +1,2758 @@
+﻿{
+    "class": "TProxyView",
+    "name": "Form1",
+    "widget_unit": "qtx.dom.forms",
+    "widget_type": "TQTXForm",
+    "PreAlign": {
+        "Left": 0,
+        "Top": 0,
+        "Width": 0,
+        "Height": 0
+    },
+    "prototype": [
+        {
+            "name": "Align",
+            "type": "TAlign",
+            "value": 0,
+            "hasdefault": false
+        },
+        {
+            "name": "Alpha",
+            "type": "int32",
+            "datatype": "int32",
+            "value": 255,
+            "hasdefault": true,
+            "defaultvalue": 255
+        },
+        {
+            "name": "Background",
+            "type": "TQTXWidgetBackground",
+            "value": [
+                {
+                    "name": "Origin",
+                    "type": "TQTXWidgetBackgroundOrigin",
+                    "value": 0,
+                    "hasdefault": true,
+                    "defaultvalue": 0
+                },
+                {
+                    "name": "ImageRepeat",
+                    "type": "TQTXWidgetBackgroundRepeat",
+                    "value": 0,
+                    "hasdefault": true,
+                    "defaultvalue": 0
+                },
+                {
+                    "name": "ImageAttachment",
+                    "type": "TQTXWidgetBackgroundAttachment",
+                    "value": 0,
+                    "hasdefault": true,
+                    "defaultvalue": 0
+                },
+                {
+                    "name": "Image",
+                    "type": "string",
+                    "datatype": "String",
+                    "value": "",
+                    "hasdefault": true,
+                    "defaultvalue": ""
+                },
+                {
+                    "name": "Color",
+                    "type": "int32",
+                    "datatype": "TColor",
+                    "value": 536870911,
+                    "hasdefault": true,
+                    "defaultvalue": 536870911
+                },
+                {
+                    "name": "Clip",
+                    "type": "TQTXWidgetBackgroundClip",
+                    "value": 0,
+                    "hasdefault": true,
+                    "defaultvalue": 0
+                },
+                {
+                    "name": "BlendMode",
+                    "type": "TQTXWidgetBackgroundBlendMode",
+                    "value": 0,
+                    "hasdefault": true,
+                    "defaultvalue": 0
+                }
+            ]
+        },
+        {
+            "name": "Border",
+            "type": "TQTXWidgetBorder",
+            "value": [
+                {
+                    "name": "Top",
+                    "type": "TQTXWidgetBorderEdge",
+                    "value": [
+                        {
+                            "name": "Width",
+                            "type": "int32",
+                            "datatype": "int32",
+                            "value": 0,
+                            "hasdefault": true,
+                            "defaultvalue": 0
+                        },
+                        {
+                            "name": "Style",
+                            "type": "TQTXWidgetBorderStyle",
+                            "value": 0,
+                            "hasdefault": true,
+                            "defaultvalue": 0
+                        },
+                        {
+                            "name": "Padding",
+                            "type": "int32",
+                            "datatype": "int32",
+                            "value": 0,
+                            "hasdefault": true,
+                            "defaultvalue": 0
+                        },
+                        {
+                            "name": "Margin",
+                            "type": "int32",
+                            "datatype": "int32",
+                            "value": 0,
+                            "hasdefault": true,
+                            "defaultvalue": 0
+                        },
+                        {
+                            "name": "Color",
+                            "type": "int32",
+                            "datatype": "TColor",
+                            "value": 536870911,
+                            "hasdefault": true,
+                            "defaultvalue": 536870911
+                        }
+                    ]
+                },
+                {
+                    "name": "Right",
+                    "type": "TQTXWidgetBorderEdge",
+                    "value": [
+                        {
+                            "name": "Width",
+                            "type": "int32",
+                            "datatype": "int32",
+                            "value": 0,
+                            "hasdefault": true,
+                            "defaultvalue": 0
+                        },
+                        {
+                            "name": "Style",
+                            "type": "TQTXWidgetBorderStyle",
+                            "value": 0,
+                            "hasdefault": true,
+                            "defaultvalue": 0
+                        },
+                        {
+                            "name": "Padding",
+                            "type": "int32",
+                            "datatype": "int32",
+                            "value": 0,
+                            "hasdefault": true,
+                            "defaultvalue": 0
+                        },
+                        {
+                            "name": "Margin",
+                            "type": "int32",
+                            "datatype": "int32",
+                            "value": 0,
+                            "hasdefault": true,
+                            "defaultvalue": 0
+                        },
+                        {
+                            "name": "Color",
+                            "type": "int32",
+                            "datatype": "TColor",
+                            "value": 536870911,
+                            "hasdefault": true,
+                            "defaultvalue": 536870911
+                        }
+                    ]
+                },
+                {
+                    "name": "Left",
+                    "type": "TQTXWidgetBorderEdge",
+                    "value": [
+                        {
+                            "name": "Width",
+                            "type": "int32",
+                            "datatype": "int32",
+                            "value": 0,
+                            "hasdefault": true,
+                            "defaultvalue": 0
+                        },
+                        {
+                            "name": "Style",
+                            "type": "TQTXWidgetBorderStyle",
+                            "value": 0,
+                            "hasdefault": true,
+                            "defaultvalue": 0
+                        },
+                        {
+                            "name": "Padding",
+                            "type": "int32",
+                            "datatype": "int32",
+                            "value": 0,
+                            "hasdefault": true,
+                            "defaultvalue": 0
+                        },
+                        {
+                            "name": "Margin",
+                            "type": "int32",
+                            "datatype": "int32",
+                            "value": 0,
+                            "hasdefault": true,
+                            "defaultvalue": 0
+                        },
+                        {
+                            "name": "Color",
+                            "type": "int32",
+                            "datatype": "TColor",
+                            "value": 536870911,
+                            "hasdefault": true,
+                            "defaultvalue": 536870911
+                        }
+                    ]
+                },
+                {
+                    "name": "Bottom",
+                    "type": "TQTXWidgetBorderEdge",
+                    "value": [
+                        {
+                            "name": "Width",
+                            "type": "int32",
+                            "datatype": "int32",
+                            "value": 0,
+                            "hasdefault": true,
+                            "defaultvalue": 0
+                        },
+                        {
+                            "name": "Style",
+                            "type": "TQTXWidgetBorderStyle",
+                            "value": 0,
+                            "hasdefault": true,
+                            "defaultvalue": 0
+                        },
+                        {
+                            "name": "Padding",
+                            "type": "int32",
+                            "datatype": "int32",
+                            "value": 0,
+                            "hasdefault": true,
+                            "defaultvalue": 0
+                        },
+                        {
+                            "name": "Margin",
+                            "type": "int32",
+                            "datatype": "int32",
+                            "value": 0,
+                            "hasdefault": true,
+                            "defaultvalue": 0
+                        },
+                        {
+                            "name": "Color",
+                            "type": "int32",
+                            "datatype": "TColor",
+                            "value": 536870911,
+                            "hasdefault": true,
+                            "defaultvalue": 536870911
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Constraints",
+            "type": "TQTXWidgetConstraints",
+            "value": [
+                {
+                    "name": "Options",
+                    "type": "TQTXWidgetConstraintOptions",
+                    "value": 15,
+                    "hasdefault": true,
+                    "defaultvalue": 15
+                },
+                {
+                    "name": "MinWidth",
+                    "type": "int32",
+                    "datatype": "int32",
+                    "value": 0,
+                    "hasdefault": true,
+                    "defaultvalue": 0
+                },
+                {
+                    "name": "MinHeight",
+                    "type": "int32",
+                    "datatype": "int32",
+                    "value": 0,
+                    "hasdefault": true,
+                    "defaultvalue": 0
+                },
+                {
+                    "name": "MaxWidth",
+                    "type": "int32",
+                    "datatype": "int32",
+                    "value": 2147483647,
+                    "hasdefault": true,
+                    "defaultvalue": 2147483647
+                },
+                {
+                    "name": "MaxHeight",
+                    "type": "int32",
+                    "datatype": "int32",
+                    "value": 2147483647,
+                    "hasdefault": true,
+                    "defaultvalue": 2147483647
+                },
+                {
+                    "name": "Active",
+                    "type": "boolean",
+                    "value": false,
+                    "hasdefault": true,
+                    "defaultvalue": false
+                }
+            ]
+        },
+        {
+            "name": "Cursor",
+            "type": "TQTXCursor",
+            "value": 3,
+            "hasdefault": true,
+            "defaultvalue": 3
+        },
+        {
+            "name": "DisplayMode",
+            "type": "TQTXWidgetDisplayMode",
+            "value": 4,
+            "hasdefault": false
+        },
+        {
+            "name": "Enabled",
+            "type": "boolean",
+            "value": true,
+            "hasdefault": true,
+            "defaultvalue": true
+        },
+        {
+            "name": "Float",
+            "type": "TQTXWidgetFloat",
+            "value": 0,
+            "hasdefault": false
+        },
+        {
+            "name": "Font",
+            "type": "TQTXWidgetFont",
+            "value": [
+                {
+                    "name": "Size",
+                    "type": "TQTXSize",
+                    "value": [
+                        {
+                            "name": "Value",
+                            "type": "int32",
+                            "datatype": "int32",
+                            "value": 0,
+                            "hasdefault": true,
+                            "defaultvalue": 0
+                        },
+                        {
+                            "name": "Type",
+                            "type": "TQTXSizeType",
+                            "value": 0,
+                            "hasdefault": true,
+                            "defaultvalue": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "Family",
+                    "type": "string",
+                    "datatype": "TQTXFontName",
+                    "value": "",
+                    "hasdefault": true,
+                    "defaultvalue": ""
+                },
+                {
+                    "name": "Color",
+                    "type": "int32",
+                    "datatype": "TColor",
+                    "value": 536870911,
+                    "hasdefault": true,
+                    "defaultvalue": 536870911
+                }
+            ]
+        },
+        {
+            "name": "height",
+            "type": "int32",
+            "value": 536,
+            "hasdefault": false
+        },
+        {
+            "name": "Hint",
+            "type": "string",
+            "datatype": "String",
+            "value": "",
+            "hasdefault": true,
+            "defaultvalue": ""
+        },
+        {
+            "name": "Left",
+            "type": "int32",
+            "value": 0,
+            "hasdefault": false
+        },
+        {
+            "name": "Name",
+            "type": "string",
+            "value": "Form1",
+            "hasdefault": false
+        },
+        {
+            "name": "Observe",
+            "type": "TQTXObservers",
+            "value": 2,
+            "hasdefault": true,
+            "defaultvalue": 2
+        },
+        {
+            "name": "ParentFont",
+            "type": "boolean",
+            "value": true,
+            "hasdefault": true,
+            "defaultvalue": true
+        },
+        {
+            "name": "PositionMode",
+            "type": "TQTXWidgetPositionMode",
+            "value": 0,
+            "hasdefault": false
+        },
+        {
+            "name": "ShowHint",
+            "type": "boolean",
+            "value": false,
+            "hasdefault": true,
+            "defaultvalue": false
+        },
+        {
+            "name": "TabIndex",
+            "type": "int32",
+            "datatype": "int32",
+            "value": -1,
+            "hasdefault": true,
+            "defaultvalue": -1
+        },
+        {
+            "name": "ThemeBackground",
+            "type": "TThemeBackground",
+            "value": 0,
+            "hasdefault": true,
+            "defaultvalue": 0
+        },
+        {
+            "name": "ThemeBorder",
+            "type": "TThemeBorder",
+            "value": 0,
+            "hasdefault": true,
+            "defaultvalue": 0
+        },
+        {
+            "name": "Top",
+            "type": "int32",
+            "value": 0,
+            "hasdefault": false
+        },
+        {
+            "name": "TouchAction",
+            "type": "TQTXTouchAction",
+            "value": 1,
+            "hasdefault": false
+        },
+        {
+            "name": "Visible",
+            "type": "boolean",
+            "value": true,
+            "hasdefault": true,
+            "defaultvalue": true
+        },
+        {
+            "name": "width",
+            "type": "int32",
+            "value": 800,
+            "hasdefault": false
+        }
+    ],
+    "children": [
+        {
+            "class": "TProxyControl",
+            "name": "btnAddElement",
+            "widget_unit": "qtx.dom.control.Button",
+            "widget_type": "TQTXButton",
+            "PreAlign": {
+                "Left": 0,
+                "Top": 0,
+                "Width": 0,
+                "Height": 0
+            },
+            "prototype": [
+                {
+                    "name": "Align",
+                    "type": "TAlign",
+                    "value": 0,
+                    "hasdefault": false
+                },
+                {
+                    "name": "Alpha",
+                    "type": "int32",
+                    "datatype": "int32",
+                    "value": 255,
+                    "hasdefault": true,
+                    "defaultvalue": 255
+                },
+                {
+                    "name": "AutoFocus",
+                    "type": "boolean",
+                    "value": false,
+                    "hasdefault": false
+                },
+                {
+                    "name": "Background",
+                    "type": "TQTXWidgetBackground",
+                    "value": [
+                        {
+                            "name": "Origin",
+                            "type": "TQTXWidgetBackgroundOrigin",
+                            "value": 0,
+                            "hasdefault": true,
+                            "defaultvalue": 0
+                        },
+                        {
+                            "name": "ImageRepeat",
+                            "type": "TQTXWidgetBackgroundRepeat",
+                            "value": 0,
+                            "hasdefault": true,
+                            "defaultvalue": 0
+                        },
+                        {
+                            "name": "ImageAttachment",
+                            "type": "TQTXWidgetBackgroundAttachment",
+                            "value": 0,
+                            "hasdefault": true,
+                            "defaultvalue": 0
+                        },
+                        {
+                            "name": "Image",
+                            "type": "string",
+                            "datatype": "String",
+                            "value": "",
+                            "hasdefault": true,
+                            "defaultvalue": ""
+                        },
+                        {
+                            "name": "Color",
+                            "type": "int32",
+                            "datatype": "TColor",
+                            "value": 536870911,
+                            "hasdefault": true,
+                            "defaultvalue": 536870911
+                        },
+                        {
+                            "name": "Clip",
+                            "type": "TQTXWidgetBackgroundClip",
+                            "value": 0,
+                            "hasdefault": true,
+                            "defaultvalue": 0
+                        },
+                        {
+                            "name": "BlendMode",
+                            "type": "TQTXWidgetBackgroundBlendMode",
+                            "value": 0,
+                            "hasdefault": true,
+                            "defaultvalue": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "Border",
+                    "type": "TQTXWidgetBorder",
+                    "value": [
+                        {
+                            "name": "Top",
+                            "type": "TQTXWidgetBorderEdge",
+                            "value": [
+                                {
+                                    "name": "Width",
+                                    "type": "int32",
+                                    "datatype": "int32",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Style",
+                                    "type": "TQTXWidgetBorderStyle",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Padding",
+                                    "type": "int32",
+                                    "datatype": "int32",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Margin",
+                                    "type": "int32",
+                                    "datatype": "int32",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Color",
+                                    "type": "int32",
+                                    "datatype": "TColor",
+                                    "value": 536870911,
+                                    "hasdefault": true,
+                                    "defaultvalue": 536870911
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Right",
+                            "type": "TQTXWidgetBorderEdge",
+                            "value": [
+                                {
+                                    "name": "Width",
+                                    "type": "int32",
+                                    "datatype": "int32",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Style",
+                                    "type": "TQTXWidgetBorderStyle",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Padding",
+                                    "type": "int32",
+                                    "datatype": "int32",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Margin",
+                                    "type": "int32",
+                                    "datatype": "int32",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Color",
+                                    "type": "int32",
+                                    "datatype": "TColor",
+                                    "value": 536870911,
+                                    "hasdefault": true,
+                                    "defaultvalue": 536870911
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Left",
+                            "type": "TQTXWidgetBorderEdge",
+                            "value": [
+                                {
+                                    "name": "Width",
+                                    "type": "int32",
+                                    "datatype": "int32",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Style",
+                                    "type": "TQTXWidgetBorderStyle",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Padding",
+                                    "type": "int32",
+                                    "datatype": "int32",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Margin",
+                                    "type": "int32",
+                                    "datatype": "int32",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Color",
+                                    "type": "int32",
+                                    "datatype": "TColor",
+                                    "value": 536870911,
+                                    "hasdefault": true,
+                                    "defaultvalue": 536870911
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Bottom",
+                            "type": "TQTXWidgetBorderEdge",
+                            "value": [
+                                {
+                                    "name": "Width",
+                                    "type": "int32",
+                                    "datatype": "int32",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Style",
+                                    "type": "TQTXWidgetBorderStyle",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Padding",
+                                    "type": "int32",
+                                    "datatype": "int32",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Margin",
+                                    "type": "int32",
+                                    "datatype": "int32",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Color",
+                                    "type": "int32",
+                                    "datatype": "TColor",
+                                    "value": 536870911,
+                                    "hasdefault": true,
+                                    "defaultvalue": 536870911
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Constraints",
+                    "type": "TQTXWidgetConstraints",
+                    "value": [
+                        {
+                            "name": "Options",
+                            "type": "TQTXWidgetConstraintOptions",
+                            "value": 15,
+                            "hasdefault": true,
+                            "defaultvalue": 15
+                        },
+                        {
+                            "name": "MinWidth",
+                            "type": "int32",
+                            "datatype": "int32",
+                            "value": 0,
+                            "hasdefault": true,
+                            "defaultvalue": 0
+                        },
+                        {
+                            "name": "MinHeight",
+                            "type": "int32",
+                            "datatype": "int32",
+                            "value": 0,
+                            "hasdefault": true,
+                            "defaultvalue": 0
+                        },
+                        {
+                            "name": "MaxWidth",
+                            "type": "int32",
+                            "datatype": "int32",
+                            "value": 2147483647,
+                            "hasdefault": true,
+                            "defaultvalue": 2147483647
+                        },
+                        {
+                            "name": "MaxHeight",
+                            "type": "int32",
+                            "datatype": "int32",
+                            "value": 2147483647,
+                            "hasdefault": true,
+                            "defaultvalue": 2147483647
+                        },
+                        {
+                            "name": "Active",
+                            "type": "boolean",
+                            "value": false,
+                            "hasdefault": true,
+                            "defaultvalue": false
+                        }
+                    ]
+                },
+                {
+                    "name": "Cursor",
+                    "type": "TQTXCursor",
+                    "value": 3,
+                    "hasdefault": true,
+                    "defaultvalue": 3
+                },
+                {
+                    "name": "DisplayMode",
+                    "type": "TQTXWidgetDisplayMode",
+                    "value": 3,
+                    "hasdefault": true,
+                    "defaultvalue": 3
+                },
+                {
+                    "name": "Enabled",
+                    "type": "boolean",
+                    "value": true,
+                    "hasdefault": true,
+                    "defaultvalue": true
+                },
+                {
+                    "name": "Float",
+                    "type": "TQTXWidgetFloat",
+                    "value": 0,
+                    "hasdefault": true,
+                    "defaultvalue": 0
+                },
+                {
+                    "name": "Font",
+                    "type": "TQTXWidgetFont",
+                    "value": [
+                        {
+                            "name": "Size",
+                            "type": "TQTXSize",
+                            "value": [
+                                {
+                                    "name": "Value",
+                                    "type": "int32",
+                                    "datatype": "int32",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Type",
+                                    "type": "TQTXSizeType",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Family",
+                            "type": "string",
+                            "datatype": "TQTXFontName",
+                            "value": "",
+                            "hasdefault": true,
+                            "defaultvalue": ""
+                        },
+                        {
+                            "name": "Color",
+                            "type": "int32",
+                            "datatype": "TColor",
+                            "value": 536870911,
+                            "hasdefault": true,
+                            "defaultvalue": 536870911
+                        }
+                    ]
+                },
+                {
+                    "name": "Height",
+                    "type": "int32",
+                    "datatype": "int32",
+                    "value": 40,
+                    "hasdefault": false
+                },
+                {
+                    "name": "Hint",
+                    "type": "string",
+                    "datatype": "String",
+                    "value": "",
+                    "hasdefault": true,
+                    "defaultvalue": ""
+                },
+                {
+                    "name": "InnerHtml",
+                    "type": "string",
+                    "datatype": "String",
+                    "value": "",
+                    "hasdefault": false
+                },
+                {
+                    "name": "InnerText",
+                    "type": "string",
+                    "datatype": "String",
+                    "value": "Add text",
+                    "hasdefault": false
+                },
+                {
+                    "name": "Kind",
+                    "type": "TQTXButtonType",
+                    "value": 0,
+                    "hasdefault": false
+                },
+                {
+                    "name": "Left",
+                    "type": "int32",
+                    "datatype": "int32",
+                    "value": 312,
+                    "hasdefault": false
+                },
+                {
+                    "name": "Name",
+                    "type": "string",
+                    "datatype": "String",
+                    "value": "btnAddElement",
+                    "hasdefault": false
+                },
+                {
+                    "name": "Observe",
+                    "type": "TQTXObservers",
+                    "value": 2,
+                    "hasdefault": true,
+                    "defaultvalue": 2
+                },
+                {
+                    "name": "ParentFont",
+                    "type": "boolean",
+                    "value": true,
+                    "hasdefault": true,
+                    "defaultvalue": true
+                },
+                {
+                    "name": "PositionMode",
+                    "type": "TQTXWidgetPositionMode",
+                    "value": 4,
+                    "hasdefault": true,
+                    "defaultvalue": 4
+                },
+                {
+                    "name": "ShowHint",
+                    "type": "boolean",
+                    "value": false,
+                    "hasdefault": true,
+                    "defaultvalue": false
+                },
+                {
+                    "name": "TabIndex",
+                    "type": "int32",
+                    "datatype": "int32",
+                    "value": 1,
+                    "hasdefault": true,
+                    "defaultvalue": -1
+                },
+                {
+                    "name": "ThemeBackground",
+                    "type": "TThemeBackground",
+                    "value": 0,
+                    "hasdefault": true,
+                    "defaultvalue": 0
+                },
+                {
+                    "name": "ThemeBorder",
+                    "type": "TThemeBorder",
+                    "value": 0,
+                    "hasdefault": true,
+                    "defaultvalue": 0
+                },
+                {
+                    "name": "Top",
+                    "type": "int32",
+                    "datatype": "int32",
+                    "value": 64,
+                    "hasdefault": false
+                },
+                {
+                    "name": "TouchAction",
+                    "type": "TQTXTouchAction",
+                    "value": 1,
+                    "hasdefault": true,
+                    "defaultvalue": 1
+                },
+                {
+                    "name": "Value",
+                    "type": "string",
+                    "datatype": "String",
+                    "value": "",
+                    "hasdefault": false
+                },
+                {
+                    "name": "Visible",
+                    "type": "boolean",
+                    "value": true,
+                    "hasdefault": true,
+                    "defaultvalue": true
+                },
+                {
+                    "name": "Width",
+                    "type": "int32",
+                    "datatype": "int32",
+                    "value": 128,
+                    "hasdefault": false
+                }
+            ],
+            "children": [
+            ],
+            "events": [
+                {
+                    "EventClass": "TQTXDOMMouseClickDelegate",
+                    "EventUnit": "qtx.dom.events.mouse",
+                    "EventName": "btnAddElementClick",
+                    "EventHandler": "HandlebtnAddElementClick"
+                }
+            ],
+            "config": {
+                "NoSize": false,
+                "NoPos": false,
+                "NoFont": false,
+                "NoColor": false,
+                "NoZOrder": false,
+                "NoDisplayMode": false,
+                "NoTheme": false,
+                "NoConstraints": false,
+                "NoBorder": false,
+                "Boxed": false
+            },
+            "borderconfig": {
+                "Edges": 30,
+                "Color": 0,
+                "Width": 1,
+                "Style": 3
+            }
+        },
+        {
+            "class": "TProxyControl",
+            "name": "Edit1",
+            "widget_unit": "qtx.dom.control.edit",
+            "widget_type": "TQTXEdit",
+            "PreAlign": {
+                "Left": 0,
+                "Top": 0,
+                "Width": 0,
+                "Height": 0
+            },
+            "prototype": [
+                {
+                    "name": "Align",
+                    "type": "TAlign",
+                    "value": 0,
+                    "hasdefault": false
+                },
+                {
+                    "name": "Alignment",
+                    "type": "TQTXEditAlign",
+                    "value": 0,
+                    "hasdefault": true,
+                    "defaultvalue": 0
+                },
+                {
+                    "name": "Alpha",
+                    "type": "int32",
+                    "datatype": "int32",
+                    "value": 255,
+                    "hasdefault": true,
+                    "defaultvalue": 255
+                },
+                {
+                    "name": "AutoCapitalize",
+                    "type": "boolean",
+                    "value": false,
+                    "hasdefault": true,
+                    "defaultvalue": false
+                },
+                {
+                    "name": "AutoComplete",
+                    "type": "boolean",
+                    "value": false,
+                    "hasdefault": true,
+                    "defaultvalue": false
+                },
+                {
+                    "name": "AutoCorrect",
+                    "type": "boolean",
+                    "value": false,
+                    "hasdefault": true,
+                    "defaultvalue": false
+                },
+                {
+                    "name": "Background",
+                    "type": "TQTXWidgetBackground",
+                    "value": [
+                        {
+                            "name": "Origin",
+                            "type": "TQTXWidgetBackgroundOrigin",
+                            "value": 0,
+                            "hasdefault": true,
+                            "defaultvalue": 0
+                        },
+                        {
+                            "name": "ImageRepeat",
+                            "type": "TQTXWidgetBackgroundRepeat",
+                            "value": 0,
+                            "hasdefault": true,
+                            "defaultvalue": 0
+                        },
+                        {
+                            "name": "ImageAttachment",
+                            "type": "TQTXWidgetBackgroundAttachment",
+                            "value": 0,
+                            "hasdefault": true,
+                            "defaultvalue": 0
+                        },
+                        {
+                            "name": "Image",
+                            "type": "string",
+                            "datatype": "String",
+                            "value": "",
+                            "hasdefault": true,
+                            "defaultvalue": ""
+                        },
+                        {
+                            "name": "Color",
+                            "type": "int32",
+                            "datatype": "TColor",
+                            "value": 536870911,
+                            "hasdefault": true,
+                            "defaultvalue": 536870911
+                        },
+                        {
+                            "name": "Clip",
+                            "type": "TQTXWidgetBackgroundClip",
+                            "value": 0,
+                            "hasdefault": true,
+                            "defaultvalue": 0
+                        },
+                        {
+                            "name": "BlendMode",
+                            "type": "TQTXWidgetBackgroundBlendMode",
+                            "value": 0,
+                            "hasdefault": true,
+                            "defaultvalue": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "Border",
+                    "type": "TQTXWidgetBorder",
+                    "value": [
+                        {
+                            "name": "Top",
+                            "type": "TQTXWidgetBorderEdge",
+                            "value": [
+                                {
+                                    "name": "Width",
+                                    "type": "int32",
+                                    "datatype": "int32",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Style",
+                                    "type": "TQTXWidgetBorderStyle",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Padding",
+                                    "type": "int32",
+                                    "datatype": "int32",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Margin",
+                                    "type": "int32",
+                                    "datatype": "int32",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Color",
+                                    "type": "int32",
+                                    "datatype": "TColor",
+                                    "value": 536870911,
+                                    "hasdefault": true,
+                                    "defaultvalue": 536870911
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Right",
+                            "type": "TQTXWidgetBorderEdge",
+                            "value": [
+                                {
+                                    "name": "Width",
+                                    "type": "int32",
+                                    "datatype": "int32",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Style",
+                                    "type": "TQTXWidgetBorderStyle",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Padding",
+                                    "type": "int32",
+                                    "datatype": "int32",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Margin",
+                                    "type": "int32",
+                                    "datatype": "int32",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Color",
+                                    "type": "int32",
+                                    "datatype": "TColor",
+                                    "value": 536870911,
+                                    "hasdefault": true,
+                                    "defaultvalue": 536870911
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Left",
+                            "type": "TQTXWidgetBorderEdge",
+                            "value": [
+                                {
+                                    "name": "Width",
+                                    "type": "int32",
+                                    "datatype": "int32",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Style",
+                                    "type": "TQTXWidgetBorderStyle",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Padding",
+                                    "type": "int32",
+                                    "datatype": "int32",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Margin",
+                                    "type": "int32",
+                                    "datatype": "int32",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Color",
+                                    "type": "int32",
+                                    "datatype": "TColor",
+                                    "value": 536870911,
+                                    "hasdefault": true,
+                                    "defaultvalue": 536870911
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Bottom",
+                            "type": "TQTXWidgetBorderEdge",
+                            "value": [
+                                {
+                                    "name": "Width",
+                                    "type": "int32",
+                                    "datatype": "int32",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Style",
+                                    "type": "TQTXWidgetBorderStyle",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Padding",
+                                    "type": "int32",
+                                    "datatype": "int32",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Margin",
+                                    "type": "int32",
+                                    "datatype": "int32",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Color",
+                                    "type": "int32",
+                                    "datatype": "TColor",
+                                    "value": 536870911,
+                                    "hasdefault": true,
+                                    "defaultvalue": 536870911
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Constraints",
+                    "type": "TQTXWidgetConstraints",
+                    "value": [
+                        {
+                            "name": "Options",
+                            "type": "TQTXWidgetConstraintOptions",
+                            "value": 15,
+                            "hasdefault": true,
+                            "defaultvalue": 15
+                        },
+                        {
+                            "name": "MinWidth",
+                            "type": "int32",
+                            "datatype": "int32",
+                            "value": 0,
+                            "hasdefault": true,
+                            "defaultvalue": 0
+                        },
+                        {
+                            "name": "MinHeight",
+                            "type": "int32",
+                            "datatype": "int32",
+                            "value": 0,
+                            "hasdefault": true,
+                            "defaultvalue": 0
+                        },
+                        {
+                            "name": "MaxWidth",
+                            "type": "int32",
+                            "datatype": "int32",
+                            "value": 2147483647,
+                            "hasdefault": true,
+                            "defaultvalue": 2147483647
+                        },
+                        {
+                            "name": "MaxHeight",
+                            "type": "int32",
+                            "datatype": "int32",
+                            "value": 2147483647,
+                            "hasdefault": true,
+                            "defaultvalue": 2147483647
+                        },
+                        {
+                            "name": "Active",
+                            "type": "boolean",
+                            "value": false,
+                            "hasdefault": true,
+                            "defaultvalue": false
+                        }
+                    ]
+                },
+                {
+                    "name": "Cursor",
+                    "type": "TQTXCursor",
+                    "value": 3,
+                    "hasdefault": true,
+                    "defaultvalue": 3
+                },
+                {
+                    "name": "DisplayMode",
+                    "type": "TQTXWidgetDisplayMode",
+                    "value": 3,
+                    "hasdefault": true,
+                    "defaultvalue": 3
+                },
+                {
+                    "name": "Enabled",
+                    "type": "boolean",
+                    "value": true,
+                    "hasdefault": true,
+                    "defaultvalue": true
+                },
+                {
+                    "name": "Float",
+                    "type": "TQTXWidgetFloat",
+                    "value": 0,
+                    "hasdefault": true,
+                    "defaultvalue": 0
+                },
+                {
+                    "name": "Font",
+                    "type": "TQTXWidgetFont",
+                    "value": [
+                        {
+                            "name": "Size",
+                            "type": "TQTXSize",
+                            "value": [
+                                {
+                                    "name": "Value",
+                                    "type": "int32",
+                                    "datatype": "int32",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Type",
+                                    "type": "TQTXSizeType",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Family",
+                            "type": "string",
+                            "datatype": "TQTXFontName",
+                            "value": "",
+                            "hasdefault": true,
+                            "defaultvalue": ""
+                        },
+                        {
+                            "name": "Color",
+                            "type": "int32",
+                            "datatype": "TColor",
+                            "value": 536870911,
+                            "hasdefault": true,
+                            "defaultvalue": 536870911
+                        }
+                    ]
+                },
+                {
+                    "name": "Height",
+                    "type": "int32",
+                    "datatype": "int32",
+                    "value": 40,
+                    "hasdefault": false
+                },
+                {
+                    "name": "Hint",
+                    "type": "string",
+                    "datatype": "String",
+                    "value": "",
+                    "hasdefault": true,
+                    "defaultvalue": ""
+                },
+                {
+                    "name": "InputType",
+                    "type": "TQTXEditType",
+                    "value": 0,
+                    "hasdefault": true,
+                    "defaultvalue": 0
+                },
+                {
+                    "name": "Left",
+                    "type": "int32",
+                    "datatype": "int32",
+                    "value": 40,
+                    "hasdefault": false
+                },
+                {
+                    "name": "MaxLength",
+                    "type": "int32",
+                    "datatype": "int32",
+                    "value": 10000,
+                    "hasdefault": true,
+                    "defaultvalue": 10000
+                },
+                {
+                    "name": "Name",
+                    "type": "string",
+                    "datatype": "String",
+                    "value": "Edit1",
+                    "hasdefault": false
+                },
+                {
+                    "name": "Observe",
+                    "type": "TQTXObservers",
+                    "value": 2,
+                    "hasdefault": true,
+                    "defaultvalue": 2
+                },
+                {
+                    "name": "ParentFont",
+                    "type": "boolean",
+                    "value": true,
+                    "hasdefault": true,
+                    "defaultvalue": true
+                },
+                {
+                    "name": "Placeholder",
+                    "type": "string",
+                    "datatype": "String",
+                    "value": "",
+                    "hasdefault": true,
+                    "defaultvalue": ""
+                },
+                {
+                    "name": "PositionMode",
+                    "type": "TQTXWidgetPositionMode",
+                    "value": 4,
+                    "hasdefault": true,
+                    "defaultvalue": 4
+                },
+                {
+                    "name": "ReadOnly",
+                    "type": "boolean",
+                    "value": false,
+                    "hasdefault": true,
+                    "defaultvalue": false
+                },
+                {
+                    "name": "ShowHint",
+                    "type": "boolean",
+                    "value": false,
+                    "hasdefault": true,
+                    "defaultvalue": false
+                },
+                {
+                    "name": "SpellCheck",
+                    "type": "boolean",
+                    "value": false,
+                    "hasdefault": true,
+                    "defaultvalue": false
+                },
+                {
+                    "name": "TabIndex",
+                    "type": "int32",
+                    "datatype": "int32",
+                    "value": 0,
+                    "hasdefault": true,
+                    "defaultvalue": -1
+                },
+                {
+                    "name": "Text",
+                    "type": "string",
+                    "datatype": "String",
+                    "value": "",
+                    "hasdefault": true,
+                    "defaultvalue": ""
+                },
+                {
+                    "name": "ThemeBackground",
+                    "type": "TThemeBackground",
+                    "value": 0,
+                    "hasdefault": true,
+                    "defaultvalue": 0
+                },
+                {
+                    "name": "ThemeBorder",
+                    "type": "TThemeBorder",
+                    "value": 0,
+                    "hasdefault": true,
+                    "defaultvalue": 0
+                },
+                {
+                    "name": "Top",
+                    "type": "int32",
+                    "datatype": "int32",
+                    "value": 64,
+                    "hasdefault": false
+                },
+                {
+                    "name": "TouchAction",
+                    "type": "TQTXTouchAction",
+                    "value": 1,
+                    "hasdefault": true,
+                    "defaultvalue": 1
+                },
+                {
+                    "name": "Visible",
+                    "type": "boolean",
+                    "value": true,
+                    "hasdefault": true,
+                    "defaultvalue": true
+                },
+                {
+                    "name": "Width",
+                    "type": "int32",
+                    "datatype": "int32",
+                    "value": 256,
+                    "hasdefault": false
+                }
+            ],
+            "children": [
+            ],
+            "events": [
+            ],
+            "config": {
+                "NoSize": false,
+                "NoPos": false,
+                "NoFont": false,
+                "NoColor": false,
+                "NoZOrder": false,
+                "NoDisplayMode": false,
+                "NoTheme": false,
+                "NoConstraints": false,
+                "NoBorder": false,
+                "Boxed": false
+            },
+            "borderconfig": {
+                "Edges": 30,
+                "Color": 0,
+                "Width": 1,
+                "Style": 3
+            }
+        },
+        {
+            "class": "TProxyControl",
+            "name": "ListBox1",
+            "widget_unit": "qtx.dom.control.listbox",
+            "widget_type": "TQTXListbox",
+            "PreAlign": {
+                "Left": 0,
+                "Top": 0,
+                "Width": 0,
+                "Height": 0
+            },
+            "prototype": [
+                {
+                    "name": "Align",
+                    "type": "TAlign",
+                    "value": 0,
+                    "hasdefault": false
+                },
+                {
+                    "name": "Alpha",
+                    "type": "int32",
+                    "datatype": "int32",
+                    "value": 255,
+                    "hasdefault": true,
+                    "defaultvalue": 255
+                },
+                {
+                    "name": "Background",
+                    "type": "TQTXWidgetBackground",
+                    "value": [
+                        {
+                            "name": "Origin",
+                            "type": "TQTXWidgetBackgroundOrigin",
+                            "value": 0,
+                            "hasdefault": true,
+                            "defaultvalue": 0
+                        },
+                        {
+                            "name": "ImageRepeat",
+                            "type": "TQTXWidgetBackgroundRepeat",
+                            "value": 0,
+                            "hasdefault": true,
+                            "defaultvalue": 0
+                        },
+                        {
+                            "name": "ImageAttachment",
+                            "type": "TQTXWidgetBackgroundAttachment",
+                            "value": 0,
+                            "hasdefault": true,
+                            "defaultvalue": 0
+                        },
+                        {
+                            "name": "Image",
+                            "type": "string",
+                            "datatype": "String",
+                            "value": "",
+                            "hasdefault": true,
+                            "defaultvalue": ""
+                        },
+                        {
+                            "name": "Color",
+                            "type": "int32",
+                            "datatype": "TColor",
+                            "value": 536870911,
+                            "hasdefault": true,
+                            "defaultvalue": 536870911
+                        },
+                        {
+                            "name": "Clip",
+                            "type": "TQTXWidgetBackgroundClip",
+                            "value": 0,
+                            "hasdefault": true,
+                            "defaultvalue": 0
+                        },
+                        {
+                            "name": "BlendMode",
+                            "type": "TQTXWidgetBackgroundBlendMode",
+                            "value": 0,
+                            "hasdefault": true,
+                            "defaultvalue": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "Border",
+                    "type": "TQTXWidgetBorder",
+                    "value": [
+                        {
+                            "name": "Top",
+                            "type": "TQTXWidgetBorderEdge",
+                            "value": [
+                                {
+                                    "name": "Width",
+                                    "type": "int32",
+                                    "datatype": "int32",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Style",
+                                    "type": "TQTXWidgetBorderStyle",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Padding",
+                                    "type": "int32",
+                                    "datatype": "int32",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Margin",
+                                    "type": "int32",
+                                    "datatype": "int32",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Color",
+                                    "type": "int32",
+                                    "datatype": "TColor",
+                                    "value": 536870911,
+                                    "hasdefault": true,
+                                    "defaultvalue": 536870911
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Right",
+                            "type": "TQTXWidgetBorderEdge",
+                            "value": [
+                                {
+                                    "name": "Width",
+                                    "type": "int32",
+                                    "datatype": "int32",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Style",
+                                    "type": "TQTXWidgetBorderStyle",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Padding",
+                                    "type": "int32",
+                                    "datatype": "int32",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Margin",
+                                    "type": "int32",
+                                    "datatype": "int32",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Color",
+                                    "type": "int32",
+                                    "datatype": "TColor",
+                                    "value": 536870911,
+                                    "hasdefault": true,
+                                    "defaultvalue": 536870911
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Left",
+                            "type": "TQTXWidgetBorderEdge",
+                            "value": [
+                                {
+                                    "name": "Width",
+                                    "type": "int32",
+                                    "datatype": "int32",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Style",
+                                    "type": "TQTXWidgetBorderStyle",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Padding",
+                                    "type": "int32",
+                                    "datatype": "int32",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Margin",
+                                    "type": "int32",
+                                    "datatype": "int32",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Color",
+                                    "type": "int32",
+                                    "datatype": "TColor",
+                                    "value": 536870911,
+                                    "hasdefault": true,
+                                    "defaultvalue": 536870911
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Bottom",
+                            "type": "TQTXWidgetBorderEdge",
+                            "value": [
+                                {
+                                    "name": "Width",
+                                    "type": "int32",
+                                    "datatype": "int32",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Style",
+                                    "type": "TQTXWidgetBorderStyle",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Padding",
+                                    "type": "int32",
+                                    "datatype": "int32",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Margin",
+                                    "type": "int32",
+                                    "datatype": "int32",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Color",
+                                    "type": "int32",
+                                    "datatype": "TColor",
+                                    "value": 536870911,
+                                    "hasdefault": true,
+                                    "defaultvalue": 536870911
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Constraints",
+                    "type": "TQTXWidgetConstraints",
+                    "value": [
+                        {
+                            "name": "Options",
+                            "type": "TQTXWidgetConstraintOptions",
+                            "value": 15,
+                            "hasdefault": true,
+                            "defaultvalue": 15
+                        },
+                        {
+                            "name": "MinWidth",
+                            "type": "int32",
+                            "datatype": "int32",
+                            "value": 0,
+                            "hasdefault": true,
+                            "defaultvalue": 0
+                        },
+                        {
+                            "name": "MinHeight",
+                            "type": "int32",
+                            "datatype": "int32",
+                            "value": 0,
+                            "hasdefault": true,
+                            "defaultvalue": 0
+                        },
+                        {
+                            "name": "MaxWidth",
+                            "type": "int32",
+                            "datatype": "int32",
+                            "value": 2147483647,
+                            "hasdefault": true,
+                            "defaultvalue": 2147483647
+                        },
+                        {
+                            "name": "MaxHeight",
+                            "type": "int32",
+                            "datatype": "int32",
+                            "value": 2147483647,
+                            "hasdefault": true,
+                            "defaultvalue": 2147483647
+                        },
+                        {
+                            "name": "Active",
+                            "type": "boolean",
+                            "value": false,
+                            "hasdefault": true,
+                            "defaultvalue": false
+                        }
+                    ]
+                },
+                {
+                    "name": "Cursor",
+                    "type": "TQTXCursor",
+                    "value": 3,
+                    "hasdefault": true,
+                    "defaultvalue": 3
+                },
+                {
+                    "name": "DisplayMode",
+                    "type": "TQTXWidgetDisplayMode",
+                    "value": 3,
+                    "hasdefault": true,
+                    "defaultvalue": 3
+                },
+                {
+                    "name": "Enabled",
+                    "type": "boolean",
+                    "value": true,
+                    "hasdefault": true,
+                    "defaultvalue": true
+                },
+                {
+                    "name": "Float",
+                    "type": "TQTXWidgetFloat",
+                    "value": 0,
+                    "hasdefault": true,
+                    "defaultvalue": 0
+                },
+                {
+                    "name": "Font",
+                    "type": "TQTXWidgetFont",
+                    "value": [
+                        {
+                            "name": "Size",
+                            "type": "TQTXSize",
+                            "value": [
+                                {
+                                    "name": "Value",
+                                    "type": "int32",
+                                    "datatype": "int32",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Type",
+                                    "type": "TQTXSizeType",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Family",
+                            "type": "string",
+                            "datatype": "TQTXFontName",
+                            "value": "",
+                            "hasdefault": true,
+                            "defaultvalue": ""
+                        },
+                        {
+                            "name": "Color",
+                            "type": "int32",
+                            "datatype": "TColor",
+                            "value": 536870911,
+                            "hasdefault": true,
+                            "defaultvalue": 536870911
+                        }
+                    ]
+                },
+                {
+                    "name": "Height",
+                    "type": "int32",
+                    "datatype": "int32",
+                    "value": 304,
+                    "hasdefault": false
+                },
+                {
+                    "name": "Hint",
+                    "type": "string",
+                    "datatype": "String",
+                    "value": "",
+                    "hasdefault": true,
+                    "defaultvalue": ""
+                },
+                {
+                    "name": "Left",
+                    "type": "int32",
+                    "datatype": "int32",
+                    "value": 40,
+                    "hasdefault": false
+                },
+                {
+                    "name": "Name",
+                    "type": "string",
+                    "datatype": "String",
+                    "value": "ListBox1",
+                    "hasdefault": false
+                },
+                {
+                    "name": "Observe",
+                    "type": "TQTXObservers",
+                    "value": 2,
+                    "hasdefault": true,
+                    "defaultvalue": 2
+                },
+                {
+                    "name": "ParentFont",
+                    "type": "boolean",
+                    "value": true,
+                    "hasdefault": true,
+                    "defaultvalue": true
+                },
+                {
+                    "name": "PositionMode",
+                    "type": "TQTXWidgetPositionMode",
+                    "value": 4,
+                    "hasdefault": true,
+                    "defaultvalue": 4
+                },
+                {
+                    "name": "ShowHint",
+                    "type": "boolean",
+                    "value": false,
+                    "hasdefault": true,
+                    "defaultvalue": false
+                },
+                {
+                    "name": "TabIndex",
+                    "type": "int32",
+                    "datatype": "int32",
+                    "value": 2,
+                    "hasdefault": true,
+                    "defaultvalue": -1
+                },
+                {
+                    "name": "ThemeBackground",
+                    "type": "TThemeBackground",
+                    "value": 0,
+                    "hasdefault": true,
+                    "defaultvalue": 0
+                },
+                {
+                    "name": "ThemeBorder",
+                    "type": "TThemeBorder",
+                    "value": 0,
+                    "hasdefault": true,
+                    "defaultvalue": 0
+                },
+                {
+                    "name": "Top",
+                    "type": "int32",
+                    "datatype": "int32",
+                    "value": 112,
+                    "hasdefault": false
+                },
+                {
+                    "name": "TouchAction",
+                    "type": "TQTXTouchAction",
+                    "value": 1,
+                    "hasdefault": true,
+                    "defaultvalue": 1
+                },
+                {
+                    "name": "Visible",
+                    "type": "boolean",
+                    "value": true,
+                    "hasdefault": true,
+                    "defaultvalue": true
+                },
+                {
+                    "name": "Width",
+                    "type": "int32",
+                    "datatype": "int32",
+                    "value": 400,
+                    "hasdefault": false
+                }
+            ],
+            "children": [
+            ],
+            "events": [
+            ],
+            "config": {
+                "NoSize": false,
+                "NoPos": false,
+                "NoFont": false,
+                "NoColor": false,
+                "NoZOrder": false,
+                "NoDisplayMode": false,
+                "NoTheme": false,
+                "NoConstraints": false,
+                "NoBorder": false,
+                "Boxed": false
+            },
+            "borderconfig": {
+                "Edges": 30,
+                "Color": 0,
+                "Width": 1,
+                "Style": 3
+            }
+        },
+        {
+            "class": "TProxyControl",
+            "name": "btnRemoveElements",
+            "widget_unit": "qtx.dom.control.Button",
+            "widget_type": "TQTXButton",
+            "PreAlign": {
+                "Left": 0,
+                "Top": 0,
+                "Width": 0,
+                "Height": 0
+            },
+            "prototype": [
+                {
+                    "name": "Align",
+                    "type": "TAlign",
+                    "value": 0,
+                    "hasdefault": false
+                },
+                {
+                    "name": "Alpha",
+                    "type": "int32",
+                    "datatype": "int32",
+                    "value": 255,
+                    "hasdefault": true,
+                    "defaultvalue": 255
+                },
+                {
+                    "name": "AutoFocus",
+                    "type": "boolean",
+                    "value": false,
+                    "hasdefault": false
+                },
+                {
+                    "name": "Background",
+                    "type": "TQTXWidgetBackground",
+                    "value": [
+                        {
+                            "name": "Origin",
+                            "type": "TQTXWidgetBackgroundOrigin",
+                            "value": 0,
+                            "hasdefault": true,
+                            "defaultvalue": 0
+                        },
+                        {
+                            "name": "ImageRepeat",
+                            "type": "TQTXWidgetBackgroundRepeat",
+                            "value": 0,
+                            "hasdefault": true,
+                            "defaultvalue": 0
+                        },
+                        {
+                            "name": "ImageAttachment",
+                            "type": "TQTXWidgetBackgroundAttachment",
+                            "value": 0,
+                            "hasdefault": true,
+                            "defaultvalue": 0
+                        },
+                        {
+                            "name": "Image",
+                            "type": "string",
+                            "datatype": "String",
+                            "value": "",
+                            "hasdefault": true,
+                            "defaultvalue": ""
+                        },
+                        {
+                            "name": "Color",
+                            "type": "int32",
+                            "datatype": "TColor",
+                            "value": 536870911,
+                            "hasdefault": true,
+                            "defaultvalue": 536870911
+                        },
+                        {
+                            "name": "Clip",
+                            "type": "TQTXWidgetBackgroundClip",
+                            "value": 0,
+                            "hasdefault": true,
+                            "defaultvalue": 0
+                        },
+                        {
+                            "name": "BlendMode",
+                            "type": "TQTXWidgetBackgroundBlendMode",
+                            "value": 0,
+                            "hasdefault": true,
+                            "defaultvalue": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "Border",
+                    "type": "TQTXWidgetBorder",
+                    "value": [
+                        {
+                            "name": "Top",
+                            "type": "TQTXWidgetBorderEdge",
+                            "value": [
+                                {
+                                    "name": "Width",
+                                    "type": "int32",
+                                    "datatype": "int32",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Style",
+                                    "type": "TQTXWidgetBorderStyle",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Padding",
+                                    "type": "int32",
+                                    "datatype": "int32",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Margin",
+                                    "type": "int32",
+                                    "datatype": "int32",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Color",
+                                    "type": "int32",
+                                    "datatype": "TColor",
+                                    "value": 536870911,
+                                    "hasdefault": true,
+                                    "defaultvalue": 536870911
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Right",
+                            "type": "TQTXWidgetBorderEdge",
+                            "value": [
+                                {
+                                    "name": "Width",
+                                    "type": "int32",
+                                    "datatype": "int32",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Style",
+                                    "type": "TQTXWidgetBorderStyle",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Padding",
+                                    "type": "int32",
+                                    "datatype": "int32",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Margin",
+                                    "type": "int32",
+                                    "datatype": "int32",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Color",
+                                    "type": "int32",
+                                    "datatype": "TColor",
+                                    "value": 536870911,
+                                    "hasdefault": true,
+                                    "defaultvalue": 536870911
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Left",
+                            "type": "TQTXWidgetBorderEdge",
+                            "value": [
+                                {
+                                    "name": "Width",
+                                    "type": "int32",
+                                    "datatype": "int32",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Style",
+                                    "type": "TQTXWidgetBorderStyle",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Padding",
+                                    "type": "int32",
+                                    "datatype": "int32",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Margin",
+                                    "type": "int32",
+                                    "datatype": "int32",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Color",
+                                    "type": "int32",
+                                    "datatype": "TColor",
+                                    "value": 536870911,
+                                    "hasdefault": true,
+                                    "defaultvalue": 536870911
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Bottom",
+                            "type": "TQTXWidgetBorderEdge",
+                            "value": [
+                                {
+                                    "name": "Width",
+                                    "type": "int32",
+                                    "datatype": "int32",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Style",
+                                    "type": "TQTXWidgetBorderStyle",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Padding",
+                                    "type": "int32",
+                                    "datatype": "int32",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Margin",
+                                    "type": "int32",
+                                    "datatype": "int32",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Color",
+                                    "type": "int32",
+                                    "datatype": "TColor",
+                                    "value": 536870911,
+                                    "hasdefault": true,
+                                    "defaultvalue": 536870911
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Constraints",
+                    "type": "TQTXWidgetConstraints",
+                    "value": [
+                        {
+                            "name": "Options",
+                            "type": "TQTXWidgetConstraintOptions",
+                            "value": 15,
+                            "hasdefault": true,
+                            "defaultvalue": 15
+                        },
+                        {
+                            "name": "MinWidth",
+                            "type": "int32",
+                            "datatype": "int32",
+                            "value": 0,
+                            "hasdefault": true,
+                            "defaultvalue": 0
+                        },
+                        {
+                            "name": "MinHeight",
+                            "type": "int32",
+                            "datatype": "int32",
+                            "value": 0,
+                            "hasdefault": true,
+                            "defaultvalue": 0
+                        },
+                        {
+                            "name": "MaxWidth",
+                            "type": "int32",
+                            "datatype": "int32",
+                            "value": 2147483647,
+                            "hasdefault": true,
+                            "defaultvalue": 2147483647
+                        },
+                        {
+                            "name": "MaxHeight",
+                            "type": "int32",
+                            "datatype": "int32",
+                            "value": 2147483647,
+                            "hasdefault": true,
+                            "defaultvalue": 2147483647
+                        },
+                        {
+                            "name": "Active",
+                            "type": "boolean",
+                            "value": false,
+                            "hasdefault": true,
+                            "defaultvalue": false
+                        }
+                    ]
+                },
+                {
+                    "name": "Cursor",
+                    "type": "TQTXCursor",
+                    "value": 3,
+                    "hasdefault": true,
+                    "defaultvalue": 3
+                },
+                {
+                    "name": "DisplayMode",
+                    "type": "TQTXWidgetDisplayMode",
+                    "value": 3,
+                    "hasdefault": true,
+                    "defaultvalue": 3
+                },
+                {
+                    "name": "Enabled",
+                    "type": "boolean",
+                    "value": true,
+                    "hasdefault": true,
+                    "defaultvalue": true
+                },
+                {
+                    "name": "Float",
+                    "type": "TQTXWidgetFloat",
+                    "value": 0,
+                    "hasdefault": true,
+                    "defaultvalue": 0
+                },
+                {
+                    "name": "Font",
+                    "type": "TQTXWidgetFont",
+                    "value": [
+                        {
+                            "name": "Size",
+                            "type": "TQTXSize",
+                            "value": [
+                                {
+                                    "name": "Value",
+                                    "type": "int32",
+                                    "datatype": "int32",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                },
+                                {
+                                    "name": "Type",
+                                    "type": "TQTXSizeType",
+                                    "value": 0,
+                                    "hasdefault": true,
+                                    "defaultvalue": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Family",
+                            "type": "string",
+                            "datatype": "TQTXFontName",
+                            "value": "",
+                            "hasdefault": true,
+                            "defaultvalue": ""
+                        },
+                        {
+                            "name": "Color",
+                            "type": "int32",
+                            "datatype": "TColor",
+                            "value": 536870911,
+                            "hasdefault": true,
+                            "defaultvalue": 536870911
+                        }
+                    ]
+                },
+                {
+                    "name": "Height",
+                    "type": "int32",
+                    "datatype": "int32",
+                    "value": 56,
+                    "hasdefault": false
+                },
+                {
+                    "name": "Hint",
+                    "type": "string",
+                    "datatype": "String",
+                    "value": "",
+                    "hasdefault": true,
+                    "defaultvalue": ""
+                },
+                {
+                    "name": "InnerHtml",
+                    "type": "string",
+                    "datatype": "String",
+                    "value": "",
+                    "hasdefault": false
+                },
+                {
+                    "name": "InnerText",
+                    "type": "string",
+                    "datatype": "String",
+                    "value": "Remove selected elements",
+                    "hasdefault": false
+                },
+                {
+                    "name": "Kind",
+                    "type": "TQTXButtonType",
+                    "value": 0,
+                    "hasdefault": false
+                },
+                {
+                    "name": "Left",
+                    "type": "int32",
+                    "datatype": "int32",
+                    "value": 40,
+                    "hasdefault": false
+                },
+                {
+                    "name": "Name",
+                    "type": "string",
+                    "datatype": "String",
+                    "value": "btnRemoveElements",
+                    "hasdefault": false
+                },
+                {
+                    "name": "Observe",
+                    "type": "TQTXObservers",
+                    "value": 2,
+                    "hasdefault": true,
+                    "defaultvalue": 2
+                },
+                {
+                    "name": "ParentFont",
+                    "type": "boolean",
+                    "value": true,
+                    "hasdefault": true,
+                    "defaultvalue": true
+                },
+                {
+                    "name": "PositionMode",
+                    "type": "TQTXWidgetPositionMode",
+                    "value": 4,
+                    "hasdefault": true,
+                    "defaultvalue": 4
+                },
+                {
+                    "name": "ShowHint",
+                    "type": "boolean",
+                    "value": false,
+                    "hasdefault": true,
+                    "defaultvalue": false
+                },
+                {
+                    "name": "TabIndex",
+                    "type": "int32",
+                    "datatype": "int32",
+                    "value": -1,
+                    "hasdefault": true,
+                    "defaultvalue": -1
+                },
+                {
+                    "name": "ThemeBackground",
+                    "type": "TThemeBackground",
+                    "value": 0,
+                    "hasdefault": true,
+                    "defaultvalue": 0
+                },
+                {
+                    "name": "ThemeBorder",
+                    "type": "TThemeBorder",
+                    "value": 0,
+                    "hasdefault": true,
+                    "defaultvalue": 0
+                },
+                {
+                    "name": "Top",
+                    "type": "int32",
+                    "datatype": "int32",
+                    "value": 424,
+                    "hasdefault": false
+                },
+                {
+                    "name": "TouchAction",
+                    "type": "TQTXTouchAction",
+                    "value": 1,
+                    "hasdefault": true,
+                    "defaultvalue": 1
+                },
+                {
+                    "name": "Value",
+                    "type": "string",
+                    "datatype": "String",
+                    "value": "",
+                    "hasdefault": false
+                },
+                {
+                    "name": "Visible",
+                    "type": "boolean",
+                    "value": true,
+                    "hasdefault": true,
+                    "defaultvalue": true
+                },
+                {
+                    "name": "Width",
+                    "type": "int32",
+                    "datatype": "int32",
+                    "value": 400,
+                    "hasdefault": false
+                }
+            ],
+            "children": [
+            ],
+            "events": [
+                {
+                    "EventClass": "TQTXDOMMouseClickDelegate",
+                    "EventUnit": "qtx.dom.events.mouse",
+                    "EventName": "btnRemoveElementsClick",
+                    "EventHandler": "HandlebtnRemoveElementsClick"
+                }
+            ],
+            "config": {
+                "NoSize": false,
+                "NoPos": false,
+                "NoFont": false,
+                "NoColor": false,
+                "NoZOrder": false,
+                "NoDisplayMode": false,
+                "NoTheme": false,
+                "NoConstraints": false,
+                "NoBorder": false,
+                "Boxed": false
+            },
+            "borderconfig": {
+                "Edges": 30,
+                "Color": 0,
+                "Width": 1,
+                "Style": 3
+            }
+        }
+    ],
+    "events": [
+    ],
+    "config": {
+        "NoSize": false,
+        "NoPos": false,
+        "NoFont": false,
+        "NoColor": false,
+        "NoZOrder": false,
+        "NoDisplayMode": false,
+        "NoTheme": false,
+        "NoConstraints": false,
+        "NoBorder": false,
+        "Boxed": false
+    },
+    "borderconfig": {
+        "Edges": 30,
+        "Color": 0,
+        "Width": 1,
+        "Style": 3
+    },
+    "view_type": 0
+}
