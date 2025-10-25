@@ -2,6 +2,9 @@
 
 [Cette page en français.](LISEZMOI.md)
 
+> [!WARNING]
+> Following Microsoft's decision to merge GitHub into its AI division in the summer of 2025, I have decided to stop maintaining the repositories here. I will update this repository from time to time by copying the missing changes from the main repository, which is now on [Codeberg](https://codeberg.org/PatrickPremartin/QuartexPascal-Samples).
+
 This code repository contains website, web application, and back-office projects created as demos or for feature testing in Quartex Pascal IDE.
 
 [Quartex Pascal IDE](https://quartexdeveloper.com) is a development environment that allows you to create web applications in the same way you develop software in [Delphi](https://developpeur-pascal.fr/delphi.html) or [Lazarus IDE](https://developpeur-pascal.fr/lazarus.html): you have a screen designer, you code in Pascal, which you can mix with JavaScript. The IDE gives you access to everything you need for web development.
@@ -14,7 +17,7 @@ Follow my development streams of software, video games, mobile applications and 
 
 ## Source code installation
 
-To download this code repository, we recommend using "git", but you can also download a ZIP file directly from [its GitHub repository](https://codeberg.org/PatrickPremartin/QuartexPascal-Samples).
+To download this code repository, we recommend using "git", but you can also download a ZIP file directly from [its Codeberg repository](https://codeberg.org/PatrickPremartin/QuartexPascal-Samples).
 
 ## Documentation and support
 
@@ -43,7 +46,7 @@ The source codes of this code repository as well as any compiled version are pro
 
 ## How to ask a new feature, report a bug or a security issue ?
 
-If you want an answer from the project owner the best way to ask for a new feature or report a bug is to go to [the GitHub repository](https://codeberg.org/PatrickPremartin/QuartexPascal-Samples) and [open a new issue](https://codeberg.org/PatrickPremartin/QuartexPascal-Samples/issues).
+If you want an answer from the project owner the best way to ask for a new feature or report a bug is to go to [the Codeberg repository](https://codeberg.org/PatrickPremartin/QuartexPascal-Samples) and [open a new issue](https://codeberg.org/PatrickPremartin/QuartexPascal-Samples/issues).
 
 If you found a security issue please don't report it publicly before a patch is available. Explain the case by [sending a private message to the author](https://developpeur-pascal.fr/nous-contacter.php).
 

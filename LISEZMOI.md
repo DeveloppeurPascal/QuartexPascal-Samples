@@ -2,6 +2,9 @@
 
 [This page in English.](README.md)
 
+> [!WARNING]
+> Suite à la décision de Microsoft de fondre GitHub dans sa division IA à l'été 2025, j'ai pris la décision d'arrêter la maintenance des dépôts ici. Je mettrai à jour ce dépôt de temps en temps par copie des modifications manquantes depuis le dépôt principal désormais sur [Codeberg](https://codeberg.org/PatrickPremartin/QuartexPascal-Samples).
+
 Ce dépôt de code contient des projets de sites, d'applications web et de backoffice créés comme démos ou pour des tests de fonctionnalités dans Quartex Pascal IDE.
 
 [Quartex Pascal IDE](https://quartexdeveloper.com) est un environnement de dévelopement permettant de créer des applications webcomme on développe des logiciels sous [Delphi](https://developpeur-pascal.fr/delphi.html) ou [Lazarus IDE](https://developpeur-pascal.fr/lazarus.html) : on a un concepteur d'écran, on code en qu'on peut mélanger avec du JavaSCript. L'IDE nous donne accès à tout ce que l'on retrouve pour faire du développemennt web.
@@ -14,7 +17,7 @@ Suivez mes streams de développement de logiciels, jeux vidéo, applications mob
 
 ## Installation des codes sources
 
-Pour télécharger ce dépôt de code il est recommandé de passer par "git" mais vous pouvez aussi télécharger un ZIP directement depuis [son dépôt GitHub](https://codeberg.org/PatrickPremartin/QuartexPascal-Samples).
+Pour télécharger ce dépôt de code il est recommandé de passer par "git" mais vous pouvez aussi télécharger un ZIP directement depuis [son dépôt Codeberg](https://codeberg.org/PatrickPremartin/QuartexPascal-Samples).
 
 ## Documentation et assistance
 
@@ -43,7 +46,7 @@ Les codes sources de ce dépôt de code comme leur éventuelle version compilée
 
 ## Comment demander une nouvelle fonctionnalité, signaler un bogue ou une faille de sécurité ?
 
-Si vous voulez une réponse du propriétaire de ce dépôt la meilleure façon de procéder pour demander une nouvelle fonctionnalité ou signaler une anomalie est d'aller sur [le dépôt de code sur GitHub](https://codeberg.org/PatrickPremartin/QuartexPascal-Samples) et [d'ouvrir un ticket](https://codeberg.org/PatrickPremartin/QuartexPascal-Samples/issues).
+Si vous voulez une réponse du propriétaire de ce dépôt la meilleure façon de procéder pour demander une nouvelle fonctionnalité ou signaler une anomalie est d'aller sur [le dépôt de code sur Codeberg](https://codeberg.org/PatrickPremartin/QuartexPascal-Samples) et [d'ouvrir un ticket](https://codeberg.org/PatrickPremartin/QuartexPascal-Samples/issues).
 
 Si vous avez trouvé une faille de sécurité n'en parlez pas en public avant qu'un correctif n'ait été déployé ou soit disponible. [Contactez l'auteur du dépôt en privé](https://developpeur-pascal.fr/nous-contacter.php) pour expliquer votre trouvaille.
 
